@@ -122,7 +122,7 @@ const mockRelatedPosts = [
     id: '1',
     slug: 'seo-optimization-guide',
     title: 'Ultimate SEO Optimization Guide for Your Ghost Blog',
-    excerpt: 'Learn how to boost your blog's search engine visibility with these proven optimization techniques for Ghost.',
+    excerpt: "Learn how to boost your blog's search engine visibility with these proven optimization techniques for Ghost.",
     featureImage: 'https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=1470&auto=format&fit=crop',
     publishedAt: '2023-10-05T12:00:00Z',
     readingTime: '10 min read',
@@ -179,7 +179,7 @@ const mockComments = [
       name: 'Alex Thompson',
       image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1374&auto=format&fit=crop'
     },
-    content: 'This is exactly what I needed! I've been struggling with structuring my blog posts effectively. The tip about making content scanner-friendly was particularly helpful.',
+    content: "This is exactly what I needed! I've been struggling with structuring my blog posts effectively. The tip about making content scanner-friendly was particularly helpful.",
     date: '2023-10-10T14:32:00Z',
     replies: [
       {
@@ -199,7 +199,7 @@ const mockComments = [
       name: 'Jessica Wu',
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1061&auto=format&fit=crop'
     },
-    content: 'Great article! I would love to see a follow-up piece about how to effectively promote blog posts once they're published. That's an area where I think many of us struggle.',
+    content: "Great article! I would love to see a follow-up piece about how to effectively promote blog posts once they're published. That's an area where I think many of us struggle.",
     date: '2023-10-09T09:17:00Z'
   }
 ];
