@@ -25,12 +25,14 @@ interface FeaturedCardProps {
   };
   variant?: 'large' | 'medium';
   className?: string;
+  style?: React.CSSProperties;
 }
 
 const FeaturedCard = ({ 
   post, 
   variant = 'large', 
-  className 
+  className,
+  style
 }: FeaturedCardProps) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   
@@ -51,6 +53,7 @@ const FeaturedCard = ({
         variant === 'large' ? 'md:aspect-[16/9] aspect-[3/4]' : 'aspect-[3/2]',
         className
       )}
+      style={style}
     >
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10 z-10" />
       
