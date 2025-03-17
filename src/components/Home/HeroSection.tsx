@@ -52,6 +52,7 @@ const HeroSection = ({ featuredPosts }: HeroSectionProps) => {
                 post={mainPost} 
                 variant="large" 
                 className={`opacity-0 ${isVisible ? 'animate-slideUp' : ''}`}
+                style={{ animationDelay: '150ms' }}
               />
             )}
           </div>
@@ -63,7 +64,7 @@ const HeroSection = ({ featuredPosts }: HeroSectionProps) => {
                 post={post}
                 variant="medium"
                 className={`opacity-0 ${isVisible ? 'animate-slideUp' : ''}`}
-                style={{ animationDelay: `${(index + 1) * 150}ms` }}
+                style={{ animationDelay: `${(index + 1) * 150 + 150}ms` }}
               />
             ))}
           </div>

@@ -59,14 +59,14 @@ const FeaturedCard = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Enhanced gradient overlay with more vibrant colors */}
+      {/* Enhanced gradient overlay with higher z-index */}
       <div className={cn(
         "absolute inset-0 z-10 transition-all duration-500",
         "bg-gradient-to-t from-black/80 via-black/40 to-transparent",
         isHovered ? "opacity-90" : "opacity-100"
       )} />
       
-      {/* Subtle color overlay on hover */}
+      {/* Subtle color overlay on hover with correct z-index */}
       <div className={cn(
         "absolute inset-0 bg-primary/20 z-5 transition-opacity duration-500",
         isHovered ? "opacity-20" : "opacity-0"
